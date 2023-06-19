@@ -1,38 +1,63 @@
-.App {
-  text-align: center;
+.nav-back{
+  background-color: #00C8C8;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header-back{
+  background-image: url('Components/Images/header2.png');
+  background-size:100%;
+  background-repeat: no-repeat;
+  padding-top: 18%;
+  padding-bottom: 15%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.header-lap-img{
+  width:45%;
+  right:5%;
+  bottom:1%;
+}
+.header-dis{
+  font-size: 0.9em;
+}
+.icon-back{
+background-color: #DBF3FD;
+color:#4AC4F3;
+font-size: 1.4em;
+}
+.service-box{
+  box-shadow: rgba(109, 107, 107, 0.2) 5px 2px 18px 0px;
+}
+.Number-back{
+    background-image: url("Components/Images/08.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .features{
+    background-color: #F5F7FB;
   }
-  to {
-    transform: rotate(360deg);
+  .card-rotate{
+    transition: transform 1s;
   }
-}
+  .card-rotate:hover{
+    transform:rotate(-5deg);
+  }
+  .floating-circle{
+    border: 22px solid #02d6d6;
+    height:280px;
+    width:280px;
+    border-radius: 50%;
+    animation: float 2.5s none infinite;
+  }
+  @keyframes float{
+    0%{
+      transform: translate(0px,0px);
+    }
+    25%{
+      transform: translate(0px,-30px);
+    }
+    50%{
+      transform: translate(0px,15px);
+    }
+    100%{
+      transform: translate(0px,0px);
+    }
+  }

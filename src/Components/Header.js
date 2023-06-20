@@ -4,7 +4,7 @@ import header_img from './Images/01.png';
 export default class Header extends Component {
   render() {
     return (
-      <div className=' header-back position-relative text-light'>
+      <div className=' header-back position-relative text-light' id={this.props.Sec_id}>
         <div className='container '>
           <div className='row'>
             <div className='col-xl-6 col-lg-6 col-md-6 col-sm-12'>

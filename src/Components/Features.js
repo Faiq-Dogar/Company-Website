@@ -5,7 +5,7 @@ import Feature_img from './Images/11-removebg-preview.png';
 export default class Features extends Component {
     render() {
         return (
-            <div className='features mt-5 pb-4'>
+            <div className='features mt-5 pb-4' id={this.props.Sec_id}>
                 <SectionHeading heading="Even more feature rich" discription="Providing you with the best features for your website" />
                 <div className='container'>
                     <div className='row'>

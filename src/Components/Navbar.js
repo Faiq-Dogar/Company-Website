@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Link } from 'react-scroll'
 
 export default class Navbar extends Component {
     render() {
@@ -6,32 +7,32 @@ export default class Navbar extends Component {
             <div>
                 <nav className="navbar navbar-expand-lg navbar-dark nav-back fixed-top w-100">
                     <div className="container">
-                        <a className="navbar-brand fw-bold" href="/">{this.props.Logo_prop}</a>
+                        <Link className="navbar-brand fw-bold" to="/">{this.props.Logo_prop}</Link>
                         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                             <span className="navbar-toggler-icon"></span>
                         </button>
                         <div className="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul className="navbar-nav ms-auto mb-2 mb-lg-0 me-4">
                                 <li className="nav-item me-3">
-                                    <a className="nav-link active" aria-current="page" href="/">{this.props.link1}</a>
+                                    <Link className="nav-link active" aria-current="page" to={this.props.home_id}>{this.props.link1}</Link>
                                 </li>
                                 <li className="nav-item me-3">
-                                    <a className="nav-link active" aria-current="page" href="/">{this.props.link2}</a>
+                                    <Link className="nav-link active" aria-current="page" to={this.props.about_id}>{this.props.link2}</Link>
                                 </li>
                                 <li className="nav-item me-3">
-                                    <a className="nav-link active" aria-current="page" href="/">{this.props.link3}</a>
+                                <Link className="nav-link active" aria-current="page" to={this.props.serve_id}>{this.props.link3}</Link>
                                 </li>
                                 <li className="nav-item me-3">
-                                    <a className="nav-link active" aria-current="page" href="/">{this.props.link4}</a>
+                                <Link className="nav-link active" aria-current="page" to={this.props.feature_id}>{this.props.link4}</Link>
                                 </li>
                                 <li className="nav-item me-3">
-                                    <a className="nav-link active" aria-current="page" href="/">{this.props.link5}</a>
+                                <Link className="nav-link active" aria-current="page" to={this.props.price_id}>{this.props.link5}</Link>
                                 </li>
                                 <li className="nav-item me-3">
-                                    <a className="nav-link active" aria-current="page" href="/">{this.props.link6}</a>
+                                    <Link className="nav-link active" aria-current="page" to={this.props.team_id}>{this.props.link6}</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link active" aria-current="page" href="/">{this.props.link7}</a>
+                                    <Link className="nav-link active" aria-current="page" to={this.props.con_id}>{this.props.link7}</Link>
                                 </li>
                             </ul>
                             <form className="d-flex">

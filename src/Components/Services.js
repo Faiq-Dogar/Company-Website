@@ -6,7 +6,7 @@ import Service_img from './Images/04.png';
 export default class Services extends Component {
     render() {
         return (
-            <div>
+            <div id={this.props.Sec_id}>
                 <SectionHeading heading="How can we help you?" discription="If you are planning to developing a product website" />
                 <div className='container'>
                     <div className='row'>

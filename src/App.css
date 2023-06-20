@@ -1,5 +1,5 @@
 .nav-back{
-  background-color: #00C8C8;
+  background-image: linear-gradient(to right, #4B8BBC, #31CBCE);
 }
 .header-back{
   background-image: url('Components/Images/header2.png');
@@ -45,7 +45,7 @@ font-size: 1.4em;
     height:280px;
     width:280px;
     border-radius: 50%;
-    animation: float 2.5s none infinite;
+    animation: float 2.5s none infinite linear;
   }
   @keyframes float{
     0%{
@@ -60,4 +60,19 @@ font-size: 1.4em;
     100%{
       transform: translate(0px,0px);
     }
+  }
+  .price-top{
+    background-image: url('Components/Images/13.jpg');
+    background-size:100%;
+    background-repeat: no-repeat;
+  }
+  .price-top-gradient{
+    background-image: linear-gradient(to right, #4B8BBC, #31CBCE);
+    opacity: 0.7;
+  }
+  .price-design{
+    bottom:0.2%
+  }
+  .acc-bg{
+    background-color: #F5F7FB;
   }

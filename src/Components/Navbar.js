@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import logo_img from './Images/logo.png';
 import { Link } from 'react-scroll'
 
 export default class Navbar extends Component {
@@ -7,7 +8,7 @@ export default class Navbar extends Component {
             <div>
                 <nav className="navbar navbar-expand-lg navbar-dark nav-back fixed-top w-100">
                     <div className="container">
-                        <Link className="navbar-brand fw-bold" to="/">{this.props.Logo_prop}</Link>
+                        <Link className="navbar-brand fw-light logo" to="/"><img className='img-fluid w-25' src={logo_img} alt="Header not found"/><span className='ms-1'>{this.props.Logo_prop}</span></Link>
                         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                             <span className="navbar-toggler-icon"></span>
                         </button>

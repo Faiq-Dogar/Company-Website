@@ -1,7 +1,14 @@
 import React, { Component } from 'react'
 import SectionHeading from './SectionHeading'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export default class Contact extends Component {
+    componentDidMount() {
+        AOS.init({
+          duration: 1100
+        });
+      }
     render() {
         return (
             <div className='pb-5 mb-3'  id={this.props.Sec_id}>
@@ -11,44 +18,44 @@ export default class Contact extends Component {
                         <div className='col-xl-6 col-lg-6 col-md-12 col-sm-12'>
                             <form class="row g-3 needs-validation" novalidate>
                                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-                                    <input type="text" class="form-control" id="validationCustom01" placeholder='Your Name' required />
+                                    <input type="text" class="form-control" id="validationCustom01" placeholder='Your Name' data-aos="zoom-in" required />
                                     <div class="valid-feedback">
                                         Looks good!
                                     </div>
                                 </div>
                                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-                                    <input type="text" class="form-control" id="validationCustom02" placeholder='Your Email' required />
+                                    <input type="text" class="form-control" id="validationCustom02" placeholder='Your Email' data-aos="zoom-in" required />
                                     <div class="valid-feedback">
                                         Looks good!
                                     </div>
                                 </div>
                                 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-                                    <input type="text" class="form-control" id="validationCustomUsername" placeholder='Your Subject' required />
+                                    <input type="text" class="form-control" id="validationCustomUsername" placeholder='Your Subject' data-aos="zoom-in" required />
                                     <div class="invalid-feedback">
                                         Please choose a username.
                                     </div>
                                 </div>
                                 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-                                    <textarea className='form-control' id="validationCustomUsername" placeholder='Your Massgae' rows={6} required></textarea>
+                                    <textarea className='form-control' id="validationCustomUsername" placeholder='Your Massgae' rows={6} data-aos="zoom-in" required></textarea>
                                     <div class="invalid-feedback">
                                         Please choose a username.
                                     </div>
                                 </div>
                                 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-                                    <button class="btn btn-outline-primary" type="submit">Submit form</button>
+                                    <button class="btn btn-outline-primary" data-aos="zoom-in" type="submit">Submit form</button>
                                 </div>
                             </form>
                         </div>
                         <div className='col-xl-6 col-lg-6 col-md-12 col-sm-12'>
-                            <div className='w-50 ms-auto me-auto mt-2'>
-                                <div className='h3'>
+                            <div className='w-50 ms-auto me-auto mt-2' data-aos="zoom-in">
+                                <div className='h3' >
                                     Office Address
                                 </div>
                                 <p>
                                     1234 North Avenue Luke Lane, South Bend, IN 360001
                                 </p>
                             </div>
-                            <div className='w-50 ms-auto me-auto mt-5'>
+                            <div className='w-50 ms-auto me-auto mt-5' data-aos="zoom-in">
                                 <div className='h3'>
                                     Phone
                                 </div>

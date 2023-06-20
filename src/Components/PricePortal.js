@@ -1,7 +1,14 @@
 import React, { Component } from 'react'
 import price_design_img from './Images/09.png';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export default class PricePortal extends Component {
+    componentDidMount() {
+        AOS.init({
+          duration: 1500
+        });
+      }
     render() {
         return (
             <div>
@@ -15,13 +22,13 @@ export default class PricePortal extends Component {
                     </div>
                     <div class="card-body text-center">
                         <div class="card-text">
-                            <div className='pt-3 pb-3 text-dark-50'>{this.props.mb} MB Disk Space</div>
-                            <div className='pt-3 pb-3 text-dark-50'>{this.props.domains} Subdomains</div>
-                            <div className='pt-3 pb-3 text-dark-50'>{this.props.accounts} Email Accounts</div>
-                            <div className='pt-3 pb-3 text-dark-50'>{this.props.webmail} Webmail Support</div>
-                            <div className='pt-3 pb-3 text-dark-50'>{this.props.support} Customer Support</div>
+                            <div className='pt-3 pb-3 text-dark-50' data-aos="fade-up">{this.props.mb} MB Disk Space</div>
+                            <div className='pt-3 pb-3 text-dark-50' data-aos="fade-up">{this.props.domains} Subdomains</div>
+                            <div className='pt-3 pb-3 text-dark-50' data-aos="fade-up">{this.props.accounts} Email Accounts</div>
+                            <div className='pt-3 pb-3 text-dark-50' data-aos="fade-up">{this.props.webmail} Webmail Support</div>
+                            <div className='pt-3 pb-3 text-dark-50' data-aos="fade-up">{this.props.support} Customer Support</div>
                         </div>
-                        <button class="btn nav-back text-light ps-5 pe-5 pt-2 pb-2 mt-3">Purchase</button>
+                        <button class="btn nav-back text-light ps-5 pe-5 pt-2 pb-2 mt-3" data-aos="zoom-in">Purchase</button>
                     </div>
                 </div>
             </div>

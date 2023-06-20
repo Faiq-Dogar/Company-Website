@@ -16,7 +16,7 @@ import Contact from './Components/Contact';
 export default function App() {
   return (
     <>
-      <Navbar Logo_prop="Jugaad Studios"  link1="Home" home_id="Homeid" link2="About Us" about_id="Aboutid" link3="Services" serve_id="Serviceid" link4="Features" feature_id="Featureid" link5="Pricing" price_id="Priceid" link6="Team" team_id="Teamid" link7="Contact" con_id="Contactid"/>
+      <Navbar Logo_prop=" STUDIOS"  link1="Home" home_id="Homeid" link2="About" about_id="Aboutid" link3="Services" serve_id="Serviceid" link4="Features" feature_id="Featureid" link5="Pricing" price_id="Priceid" link6="Team" team_id="Teamid" link7="Contact" con_id="Contactid"/>
       <Header Sec_id="Homeid"/>
       <About Sec_id="Aboutid"/>
       <Services Sec_id="Serviceid" Service1="Web Development" Service2="Game Development" Service1Dis="Lorem Ipsum is simply dummy text of the printing and typesetting industry."  Service2Dis="Lorem Ipsum is simply dummy text of the printing and typesetting industry."/>

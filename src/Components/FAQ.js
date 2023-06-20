@@ -2,9 +2,15 @@ import React, { Component } from 'react'
 import SectionHeading from './SectionHeading'
 import FAQ_img from './Images/15.png';
 import dot_image from './Images/06.png';
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export default class FAQ extends Component {
+    componentDidMount() {
+        AOS.init({
+          duration: 1100
+        });
+      }
     render() {
         return (
             <div className='mb-5 pb-5'>
@@ -15,18 +21,18 @@ export default class FAQ extends Component {
                         <div className='position-relative'>
                                 <div className='row'>
                                     <div className='col-xl-6 col-lg-6 col-md-6 col-sm-6'>
-                                        <img className='w-50 float-end' src={dot_image} alt='Not found' />
+                                        <img className='w-50 float-end' data-aos="fade-right" src={dot_image} alt='Not found' />
                                     </div>
                                     <div className='col-xl-6 col-lg-6 col-md-6 col-sm-6'>
-                                        <div className="ms-auto me-auto floating-circle"></div>
+                                        <div className="ms-auto me-auto floating-circle" data-aos="fade-left"></div>
                                     </div>
                                 </div>
-                                <img className='w-75 position-absolute top-0' src={FAQ_img} alt='Not found' />
+                                <img className='w-75 position-absolute top-0' data-aos="fade-up" src={FAQ_img} alt='Not found' />
                             </div>
                         </div>
                         <div className='col-xl-6 col-lg-6 col-md-12 col-sm-12'>
                             <div class="accordion" id="accordionExample">
-                                <div class="accordion-item mb-4">
+                                <div class="accordion-item mb-4" data-aos="fade-up">
                                     <h2 class="accordion-header " id="headingOne">
                                         <button class="accordion-button acc-bg fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                             Ipsum is simply dummy he printing?
@@ -38,7 +44,7 @@ export default class FAQ extends Component {
                                         </div>
                                     </div>
                                 </div>
-                                <div class="accordion-item mb-4">
+                                <div class="accordion-item mb-4" data-aos="fade-up">
                                     <h2 class="accordion-header" id="headingTwo">
                                         <button class="accordion-button collapsed acc-bg fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                             Dummy the printing andtype setting?
@@ -50,7 +56,7 @@ export default class FAQ extends Component {
                                         </div>
                                     </div>
                                 </div>
-                                <div class="accordion-item mb-4">
+                                <div class="accordion-item mb-4" data-aos="fade-up">
                                     <h2 class="accordion-header" id="headingThree">
                                         <button class="accordion-button collapsed acc-bg fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                                             Standard dummy since 1500?

@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Company-Website/static/css/main.2b3f8e81.css",
+    "main.js": "/Company-Website/static/js/main.0fe2c1e1.js",
+    "static/js/787.720d1f04.chunk.js": "/Company-Website/static/js/787.720d1f04.chunk.js",
+    "static/media/13.jpg": "/Company-Website/static/media/13.37361c833492b5c34524.jpg",
+    "static/media/08.jpg": "/Company-Website/static/media/08.0046737d05dc0e304803.jpg",
+    "static/media/CEO.png": "/Company-Website/static/media/CEO.48c6c4e03780ee39e2d5.png",
+    "static/media/black_header.png": "/Company-Website/static/media/black_header.b603c6974e1269397587.png",
+    "static/media/Faiq Dogar.png": "/Company-Website/static/media/Faiq Dogar.4504feefa82193a3f7d8.png",
+    "static/media/15.png": "/Company-Website/static/media/15.64495beefe63c2e127bc.png",
+    "static/media/01.png": "/Company-Website/static/media/01.c3719eda47fb16b67a31.png",
+    "static/media/04.png": "/Company-Website/static/media/04.ba029ddd7d5e00bb8bd0.png",
+    "static/media/11-removebg-preview.png": "/Company-Website/static/media/11-removebg-preview.d200d3b6f6f037d34538.png",
+    "static/media/06.png": "/Company-Website/static/media/06.51b5705067701673e31c.png",
+    "index.html": "/Company-Website/index.html",
+    "main.2b3f8e81.css.map": "/Company-Website/static/css/main.2b3f8e81.css.map",
+    "main.0fe2c1e1.js.map": "/Company-Website/static/js/main.0fe2c1e1.js.map",
+    "787.720d1f04.chunk.js.map": "/Company-Website/static/js/787.720d1f04.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2b3f8e81.css",
+    "static/js/main.0fe2c1e1.js"
+  ]
+}

@@ -12,7 +12,7 @@ export default class Team extends Component {
                 <div className='container'>
                         <div className='row'>
                             <div className='col-xl-6 col-lg-6 col-md-12 col-sm-6'>
-                                <TeamMembers Name="Hamza Jamil" Designation="CEO" pic={Member1_img}/>
+                            <TeamMembers Name="Faiq Dogar" Designation="CEO" pic={Member2_img}/>
                             </div>
                             <div className='col-xl-6 col-lg-6 col-md-12 col-sm-6'>
                                 <TeamMembers Name="Faiq Dogar" Designation="React Developer" pic={Member2_img}/>

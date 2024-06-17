@@ -9,7 +9,7 @@ export default class Navbar extends Component {
                 <nav className="navbar navbar-expand-lg navbar-dark nav-back fixed-top w-100">
                     <div className="container">
                         <Link className="navbar-brand fw-light logo w-50" to="/"><img className='img-fluid w-25' src={logo_img} alt="Header not found"/><span className='ms-1'>{this.props.Logo_prop}</span></Link>
-                        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span className="navbar-toggler-icon"></span>
                         </button>
                         <div className="collapse navbar-collapse" id="navbarSupportedContent">

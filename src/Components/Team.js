@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import SectionHeading from './SectionHeading'
 import TeamMembers from './TeamMembers'
-import Member1_img from './Images/CEO.png';
 import Member2_img from './Images/Faiq Dogar.png';
 
 export default class Team extends Component {

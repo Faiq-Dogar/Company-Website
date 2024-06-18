@@ -111,17 +111,39 @@
   background-color: #F5F7FB;
 }
 
-@media only screen and (max-width: 430px) and (max-height: 932px) {
+@media only screen and (max-width: 430px) and (max-height: 768px) {
   .header-dis {
     font-size: 0.4em;
   }
+
+
+  .floating-circle {
+    height: 180px;
+    width: 180px;
+  }
+
+  .laptop {
+    top: 10%;
+  }
+
+  .price-design {
+    bottom: -0.3%
+  }
+
+  .dots {
+    display: none;
+  }
+
+  .accordion {
+    margin-top: 25%;
+  }
 }
 
-.floating-circle {
-  height: 180px;
-  width: 180px;
-}
-
-.laptop {
-  top: 10%;
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .dots {
+    margin: 7% 0%;
+  }
+  .accordion {
+    margin-top: 25%;
+  }
 }

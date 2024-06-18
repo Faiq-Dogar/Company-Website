@@ -33,7 +33,7 @@ export default class Services extends Component {
                             <div className='position-relative'>
                                 <div className='row'>
                                     <div className='col-xl-6 col-lg-6 col-md-6 col-sm-6'>
-                                        <img className='w-50 ms-auto me-auto' data-aos="fade-right" src={dot_image} alt='Not found' />
+                                        <img className='w-50 ms-auto me-auto dots' data-aos="fade-right" src={dot_image} alt='Not found' />
                                     </div>
                                     <div className='col-xl-6 col-lg-6 col-md-6 col-sm-6'>
                                         <div className="ms-auto me-auto floating-circle" data-aos="fade-left"></div>
